@@ -1,0 +1,57 @@
+.texto{
+    width: 200px;
+    height: 30px;
+    margin: 0px 30px;
+    padding: 0px;
+    text-align: center;
+}
+
+.boton{
+    width: 150px;
+    height: 50px;
+    background: #02064F;
+    color: white;
+    border: none;
+    font: normal 16px/0 "Times New Roman", Times, serif;
+}
+
+.boton:hover{
+    background: #040B8A;
+}
+
+.botonTablas {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #018dc4;
+  border-radius: 3px;
+  font: normal 16px/0 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,0.9);
+  text-align: right;
+  background: #02064F;
+}
+
+.select {
+  text-align: center;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background: #fff url("../Imagenes/arrow.jpg") no-repeat 95% center;
+  width:76%;
+  height: 30px;
+  margin: 0px auto;
+}
+.select select {
+  padding: 5px 8px;
+  width: 120%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+}
+.todo {
+    width:100%;
+    border: 0px solid #ccc;
+    margin: 0 auto;
+    height: 30px;
+    text-align: center;
+}
